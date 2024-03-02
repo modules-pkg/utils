@@ -1,17 +1,18 @@
 /**
- * This module provides functions for working with strings.
  * @module
+ * This module provides functions for working with strings.
  */
 
 /**
- * @param str
- * @param prefix
- * @returns str without the prefix
- *
+ * This function returns the string without the prefix. *
  * @example
  * ```ts
  * removePrefix("hello world", "hello "); // "world"
  * ```
+ *
+ * @param str
+ * @param prefix
+ * @returns str without the prefix
  */
 export function removePrefix(str: string, prefix: string): string {
   if (str.startsWith(prefix)) {

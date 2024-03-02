@@ -1,6 +1,6 @@
 /**
- * This module provides functions for working with numbers.
  * @module
+ * This module provides functions for working with numbers.
  */
 
 /**
