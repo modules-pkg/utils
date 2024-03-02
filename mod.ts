@@ -1,13 +1,9 @@
-export function removePrefix(str: string, prefix: string): string {
-  if (str.startsWith(prefix)) {
-    return str.slice(prefix.length);
-  }
-  return str;
-}
+import * as number from "./number.ts";
+import * as string from "./string.ts";
 
-export function removeSuffix(str: string, suffix: string): string {
-  if (str.endsWith(suffix)) {
-    return str.slice(0, -suffix.length);
-  }
-  return str;
-}
+/**
+ * This module provides functions for working with numbers and strings.
+ * @module
+ */
+
+export { number, string };

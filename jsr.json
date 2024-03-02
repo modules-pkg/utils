@@ -1,5 +1,9 @@
 {
     "name": "@modules/utils",
-    "version": "0.1.0",
-    "exports": "./mod.ts"
+    "version": "0.2.0",
+    "exports": {
+        ".": "./index.ts",
+        "./string": "./string.ts",
+        "./number": "./number.ts"
+    }
 }
